@@ -8,11 +8,13 @@ using namespace std;
 
 class Persona
 {
+
 public:
     Persona();
     void actualizarDatos(void);
     void mostrarDatos(void);
     ~Persona();
+
 
 private:
     string nombres;
