@@ -4,4 +4,10 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp
+        controlador.cpp \
+        main.cpp \
+        persona.cpp
+
+HEADERS += \
+    controlador.h \
+    persona.h
